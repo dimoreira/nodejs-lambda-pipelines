@@ -17,8 +17,7 @@ pipelines:
 				- "node --version"
 				- "npm --version"
 				- "npm install"
-				- "/bin/bash service mongod restart"
-				- "npm install"
+				- "npm test"
 ```
 
 And commit the change to your repository to use the new image on the build step.
